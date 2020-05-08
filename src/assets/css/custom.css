@@ -1,0 +1,32 @@
+* {
+  background: #ffffff;
+  font-family: monospace;
+}
+
+.button-primary {
+  background: #01c7da;
+  color: #ffffff;
+}
+
+.button-primary:hover {
+  background: #00a5b4;
+}
+
+.button-primary:active {
+  background: #007b86;
+}
+
+.title-logo {
+  color: #444444 !important;
+  text-decoration: none;
+  font-size: 0.7em;
+}
+
+.active {
+  color: #444444 !important;
+}
+
+h1,
+p {
+  color: #555555;
+}
