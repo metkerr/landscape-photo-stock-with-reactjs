@@ -12,6 +12,7 @@ import FeatureTile03 from "assets/images/feature-tile-icon-03.svg";
 import Card from "elements/Card";
 import Lists from "elements/Lists";
 import Button from "elements/Button";
+import Footer from "parts/Footer";
 
 const feature = [
   {
@@ -235,6 +236,7 @@ export default function Homepage() {
           </div>
         </Section>
       </main>
+      <Footer />
     </div>
   );
 }

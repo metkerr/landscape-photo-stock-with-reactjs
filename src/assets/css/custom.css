@@ -36,4 +36,20 @@ h2 {
 
 .features-tiles-item-header img {
   filter: grayscale(100%);
+  background: #ffffff;
+  border: 3px double #444444;
+  border-radius: 50%;
+}
+
+.list-reset > li::after {
+  padding-right: 1.5em;
+}
+
+footer {
+  background: #ffffff;
+  margin-top: 1em;
+}
+
+footer svg {
+  filter: grayscale(100%) !important;
 }
