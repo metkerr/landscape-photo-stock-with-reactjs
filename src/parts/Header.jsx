@@ -1,10 +1,9 @@
 import React from "react";
 
-import Logo from "assets/images/logo.svg";
 import { NavLink } from "react-router-dom";
 import Button from "elements/Button";
 
-export default function Header(props) {
+export default function Header() {
   return (
     <header className="site-header">
       <div className="container">
@@ -20,7 +19,7 @@ export default function Header(props) {
           <button id="header-nav-toggle" className="header-nav-toggle">
             <span className="screen-reader">Menu</span>
             <span className="hamburger">
-              <span class="hamburger-inner"></span>
+              <span className="hamburger-inner"></span>
             </span>
           </button>
           <nav id="header-nav" className="header-nav">

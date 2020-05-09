@@ -1,6 +1,7 @@
-* {
-  background: #ffffff;
+body {
   font-family: monospace;
+  background: #ffffff;
+  box-sizing: border-box;
 }
 
 .button-primary {
@@ -27,6 +28,12 @@
 }
 
 h1,
-p {
+p,
+h4,
+h2 {
   color: #555555;
+}
+
+.features-tiles-item-header img {
+  filter: grayscale(100%);
 }
